@@ -17,7 +17,6 @@ namespace DeThiThu
             if (con.State == ConnectionState.Open) con.Close();
             con.ConnectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source= qldiem.mdb";
             con.Open();
-           // MessageBox.Show(con.State.ToString());
         }
     }
 }

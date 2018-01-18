@@ -75,6 +75,19 @@ namespace DeThiThu
             return s;
         }
 
+        private void Anhien(bool a)
+        {
+            txtMaSo.Enabled = txtHoTen.Enabled = dateNgaySinh.Enabled = txtDiemThi.Enabled =
+                txtDiemTB.Enabled = txtDiemHS2.Enabled = txtDiemHS1.Enabled = btnHuy.Enabled = btnLuu.Enabled = a;
+            btnThem.Enabled = btnSua.Enabled = !a;
+        }
+
+        private void Xoatext()
+        {
+            txtDiemHS1.Text = txtDiemHS2.Text = txtDiemTB.Text = txtDiemThi.Text = txtHoTen.Text =
+                txtMaSo.Text = dateNgaySinh.Text = "";
+        }
+
         private void btnDau_Click(object sender, EventArgs e)
         {
             BindingContext[ds, "diem"].Position = 0;
@@ -103,17 +116,6 @@ namespace DeThiThu
             txtDiemTB.Text = DiemTrungBinh(txtDiemHS1.Text.Trim(), txtDiemHS2.Text.Trim());
         }
 
-        private void btnThoat_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void Anhien(bool a)
-        {
-            txtMaSo.Enabled = txtHoTen.Enabled = dateNgaySinh.Enabled = txtDiemThi.Enabled = txtDiemTB.Enabled = txtDiemHS2.Enabled = txtDiemHS1.Enabled = btnHuy.Enabled = btnLuu.Enabled = a;
-            btnThem.Enabled = btnSua.Enabled = !a;
-        }
-
         private void btnThem_Click(object sender, EventArgs e)
         {
             Anhien(true); btnSua.Enabled = true; btnXoa.Enabled = false;
@@ -126,6 +128,13 @@ namespace DeThiThu
             Anhien(true); btnSua.Enabled = true; btnXoa.Enabled = false; txtMaSo.Enabled = false;
             BindingContext[ds, "diem"].EndCurrentEdit();
             da.Update(ds, "diem");
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            BindingContext[ds, "diem"].RemoveAt(BindingContext[ds, "diem"].Position); 
+            btnLuu.Enabled = true; btnHuy.Enabled = true;
+            btnThem.Enabled = btnXoa.Enabled = btnSua.Enabled = false;
         }
 
         private void btnLuu_Click(object sender, EventArgs e)
@@ -142,23 +151,16 @@ namespace DeThiThu
             Form1_Load(sender, e);
         }
 
-        private void Xoatext()
-        {
-            txtDiemHS1.Text = txtDiemHS2.Text = txtDiemTB.Text = txtDiemThi.Text = txtHoTen.Text = txtMaSo.Text = dateNgaySinh.Text = "";
-
-        }
-
-        private void btnXoa_Click(object sender, EventArgs e)
-        {
-            BindingContext[ds, "diem"].RemoveAt(BindingContext[ds, "diem"].Position); btnLuu.Enabled = true; btnHuy.Enabled = true;
-            btnThem.Enabled = btnXoa.Enabled = btnSua.Enabled = false;
-        }
-
         int x = 10;
         private void timer1_Tick(object sender, EventArgs e)
         {
             lblPhieuNhapDiem.Left += x;
             if (lblPhieuNhapDiem.Left <= 0 || lblPhieuNhapDiem.Left > Width - lblPhieuNhapDiem.Width) x = -x;
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

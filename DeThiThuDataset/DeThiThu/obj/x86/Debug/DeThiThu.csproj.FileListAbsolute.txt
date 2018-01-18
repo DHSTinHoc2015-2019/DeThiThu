@@ -14,3 +14,11 @@ C:\Users\QUANGTAN\Downloads\KyThuatLapTrinhNangCao-master\KyThuatLapTrinhNangCao
 C:\Users\QUANGTAN\Downloads\KyThuatLapTrinhNangCao-master\KyThuatLapTrinhNangCao-master\DeThiThu\DeThiThu\obj\x86\Debug\DeThiThu.Form1.resources
 C:\Users\QUANGTAN\Downloads\KyThuatLapTrinhNangCao-master\KyThuatLapTrinhNangCao-master\DeThiThu\DeThiThu\obj\x86\Debug\DeThiThu.Properties.Resources.resources
 C:\Users\QUANGTAN\Downloads\KyThuatLapTrinhNangCao-master\KyThuatLapTrinhNangCao-master\DeThiThu\DeThiThu\obj\x86\Debug\DeThiThu.csproj.GenerateResource.Cache
+C:\Users\LONG GIA\Desktop\Tan\DeThiThu-master\DeThiThu-master\DeThiThu\DeThiThu\obj\x86\Debug\DeThiThu.exe
+C:\Users\LONG GIA\Desktop\Tan\DeThiThu-master\DeThiThu-master\DeThiThu\DeThiThu\obj\x86\Debug\DeThiThu.pdb
+C:\Users\LONG GIA\Desktop\Tan\DeThiThu-master\DeThiThu-master\DeThiThu\DeThiThu\bin\Debug\DeThiThu.exe
+C:\Users\LONG GIA\Desktop\Tan\DeThiThu-master\DeThiThu-master\DeThiThu\DeThiThu\bin\Debug\DeThiThu.pdb
+C:\Users\LONG GIA\Desktop\Tan\DeThiThu-master\DeThiThu-master\DeThiThu\DeThiThu\obj\x86\Debug\DeThiThu.csprojResolveAssemblyReference.cache
+C:\Users\LONG GIA\Desktop\Tan\DeThiThu-master\DeThiThu-master\DeThiThu\DeThiThu\obj\x86\Debug\DeThiThu.Form1.resources
+C:\Users\LONG GIA\Desktop\Tan\DeThiThu-master\DeThiThu-master\DeThiThu\DeThiThu\obj\x86\Debug\DeThiThu.Properties.Resources.resources
+C:\Users\LONG GIA\Desktop\Tan\DeThiThu-master\DeThiThu-master\DeThiThu\DeThiThu\obj\x86\Debug\DeThiThu.csproj.GenerateResource.Cache

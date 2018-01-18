@@ -1,0 +1,8 @@
+C:\Users\LONG GIA\Desktop\Tan\DeThiThuDataTable\DeThiThuDataTable\bin\Debug\DeThiThuDataTable.exe
+C:\Users\LONG GIA\Desktop\Tan\DeThiThuDataTable\DeThiThuDataTable\bin\Debug\DeThiThuDataTable.pdb
+C:\Users\LONG GIA\Desktop\Tan\DeThiThuDataTable\DeThiThuDataTable\obj\x86\Debug\DeThiThuDataTable.Form1.resources
+C:\Users\LONG GIA\Desktop\Tan\DeThiThuDataTable\DeThiThuDataTable\obj\x86\Debug\DeThiThuDataTable.Properties.Resources.resources
+C:\Users\LONG GIA\Desktop\Tan\DeThiThuDataTable\DeThiThuDataTable\obj\x86\Debug\DeThiThuDataTable.csproj.GenerateResource.Cache
+C:\Users\LONG GIA\Desktop\Tan\DeThiThuDataTable\DeThiThuDataTable\obj\x86\Debug\DeThiThuDataTable.exe
+C:\Users\LONG GIA\Desktop\Tan\DeThiThuDataTable\DeThiThuDataTable\obj\x86\Debug\DeThiThuDataTable.pdb
+C:\Users\LONG GIA\Desktop\Tan\DeThiThuDataTable\DeThiThuDataTable\obj\x86\Debug\DeThiThuDataTable.csprojResolveAssemblyReference.cache

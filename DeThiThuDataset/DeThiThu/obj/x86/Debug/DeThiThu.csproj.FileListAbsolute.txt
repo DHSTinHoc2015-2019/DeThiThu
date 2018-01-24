@@ -22,3 +22,11 @@ C:\Users\LONG GIA\Desktop\Tan\DeThiThu-master\DeThiThu-master\DeThiThu\DeThiThu\
 C:\Users\LONG GIA\Desktop\Tan\DeThiThu-master\DeThiThu-master\DeThiThu\DeThiThu\obj\x86\Debug\DeThiThu.Form1.resources
 C:\Users\LONG GIA\Desktop\Tan\DeThiThu-master\DeThiThu-master\DeThiThu\DeThiThu\obj\x86\Debug\DeThiThu.Properties.Resources.resources
 C:\Users\LONG GIA\Desktop\Tan\DeThiThu-master\DeThiThu-master\DeThiThu\DeThiThu\obj\x86\Debug\DeThiThu.csproj.GenerateResource.Cache
+C:\Users\QUANGTAN\Documents\Visual Studio 2010\Projects\DeThiThu-master\DeThiThuDataset\DeThiThu\obj\x86\Debug\DeThiThu.exe
+C:\Users\QUANGTAN\Documents\Visual Studio 2010\Projects\DeThiThu-master\DeThiThuDataset\DeThiThu\obj\x86\Debug\DeThiThu.pdb
+C:\Users\QUANGTAN\Documents\Visual Studio 2010\Projects\DeThiThu-master\DeThiThuDataset\DeThiThu\bin\Debug\DeThiThu.exe
+C:\Users\QUANGTAN\Documents\Visual Studio 2010\Projects\DeThiThu-master\DeThiThuDataset\DeThiThu\bin\Debug\DeThiThu.pdb
+C:\Users\QUANGTAN\Documents\Visual Studio 2010\Projects\DeThiThu-master\DeThiThuDataset\DeThiThu\obj\x86\Debug\DeThiThu.csprojResolveAssemblyReference.cache
+C:\Users\QUANGTAN\Documents\Visual Studio 2010\Projects\DeThiThu-master\DeThiThuDataset\DeThiThu\obj\x86\Debug\DeThiThu.Form1.resources
+C:\Users\QUANGTAN\Documents\Visual Studio 2010\Projects\DeThiThu-master\DeThiThuDataset\DeThiThu\obj\x86\Debug\DeThiThu.Properties.Resources.resources
+C:\Users\QUANGTAN\Documents\Visual Studio 2010\Projects\DeThiThu-master\DeThiThuDataset\DeThiThu\obj\x86\Debug\DeThiThu.csproj.GenerateResource.Cache

@@ -18,19 +18,18 @@ namespace DeThiThu
         }
 
         DataSet ds = new DataSet();
-        OleDbCommand cmd;
-        OleDbDataAdapter da;
+        OleDbDataAdapter da = new OleDbDataAdapter();
         OleDbCommandBuilder cb;
+        OleDbCommand cmd;
 
         private void Form1_Load(object sender, EventArgs e)
         {
             KetNoi.Moketnoi();
             cmd = new OleDbCommand("select * from diem", KetNoi.con);
             ds.Clear();
-            da = new OleDbDataAdapter(cmd);
             da.SelectCommand = cmd;
-            cb = new OleDbCommandBuilder(da);
             da.Fill(ds, "diem");
+            cb = new OleDbCommandBuilder(da);
 
             txtMaSo.DataBindings.Clear();
             txtMaSo.DataBindings.Add("Text", ds, "diem.masv");

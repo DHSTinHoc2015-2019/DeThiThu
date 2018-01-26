@@ -1,0 +1,7 @@
+c:\users\quangtan\documents\visual studio 2010\Projects\DeThiThuDataGridview\bin\Debug\DeThiThuDataGridview.exe
+c:\users\quangtan\documents\visual studio 2010\Projects\DeThiThuDataGridview\bin\Debug\DeThiThuDataGridview.pdb
+c:\users\quangtan\documents\visual studio 2010\Projects\DeThiThuDataGridview\obj\x86\Debug\DeThiThuDataGridview.Form1.resources
+c:\users\quangtan\documents\visual studio 2010\Projects\DeThiThuDataGridview\obj\x86\Debug\DeThiThuDataGridview.Properties.Resources.resources
+c:\users\quangtan\documents\visual studio 2010\Projects\DeThiThuDataGridview\obj\x86\Debug\DeThiThuDataGridview.csproj.GenerateResource.Cache
+c:\users\quangtan\documents\visual studio 2010\Projects\DeThiThuDataGridview\obj\x86\Debug\DeThiThuDataGridview.exe
+c:\users\quangtan\documents\visual studio 2010\Projects\DeThiThuDataGridview\obj\x86\Debug\DeThiThuDataGridview.pdb

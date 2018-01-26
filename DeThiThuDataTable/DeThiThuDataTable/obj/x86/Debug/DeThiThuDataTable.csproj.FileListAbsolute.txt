@@ -6,3 +6,11 @@ C:\Users\LONG GIA\Desktop\Tan\DeThiThuDataTable\DeThiThuDataTable\obj\x86\Debug\
 C:\Users\LONG GIA\Desktop\Tan\DeThiThuDataTable\DeThiThuDataTable\obj\x86\Debug\DeThiThuDataTable.exe
 C:\Users\LONG GIA\Desktop\Tan\DeThiThuDataTable\DeThiThuDataTable\obj\x86\Debug\DeThiThuDataTable.pdb
 C:\Users\LONG GIA\Desktop\Tan\DeThiThuDataTable\DeThiThuDataTable\obj\x86\Debug\DeThiThuDataTable.csprojResolveAssemblyReference.cache
+C:\Users\QUANGTAN\Documents\Visual Studio 2010\Projects\DeThiThu-master\DeThiThuDataTable\DeThiThuDataTable\obj\x86\Debug\DeThiThuDataTable.exe
+C:\Users\QUANGTAN\Documents\Visual Studio 2010\Projects\DeThiThu-master\DeThiThuDataTable\DeThiThuDataTable\obj\x86\Debug\DeThiThuDataTable.pdb
+C:\Users\QUANGTAN\Documents\Visual Studio 2010\Projects\DeThiThu-master\DeThiThuDataTable\DeThiThuDataTable\bin\Debug\DeThiThuDataTable.exe
+C:\Users\QUANGTAN\Documents\Visual Studio 2010\Projects\DeThiThu-master\DeThiThuDataTable\DeThiThuDataTable\bin\Debug\DeThiThuDataTable.pdb
+C:\Users\QUANGTAN\Documents\Visual Studio 2010\Projects\DeThiThu-master\DeThiThuDataTable\DeThiThuDataTable\obj\x86\Debug\DeThiThuDataTable.csprojResolveAssemblyReference.cache
+C:\Users\QUANGTAN\Documents\Visual Studio 2010\Projects\DeThiThu-master\DeThiThuDataTable\DeThiThuDataTable\obj\x86\Debug\DeThiThuDataTable.Form1.resources
+C:\Users\QUANGTAN\Documents\Visual Studio 2010\Projects\DeThiThu-master\DeThiThuDataTable\DeThiThuDataTable\obj\x86\Debug\DeThiThuDataTable.Properties.Resources.resources
+C:\Users\QUANGTAN\Documents\Visual Studio 2010\Projects\DeThiThu-master\DeThiThuDataTable\DeThiThuDataTable\obj\x86\Debug\DeThiThuDataTable.csproj.GenerateResource.Cache

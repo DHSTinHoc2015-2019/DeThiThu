@@ -42,6 +42,7 @@ namespace DeThiThu
             txtDiemHS2.DataBindings.Clear();
             txtDiemHS2.DataBindings.Add("Text", ds, "diem.diemhs2");
 
+            txtDiemTB.Enabled = txtDiemThi.Enabled = false;
             txtHoTen.Text = CatKyTuTrong(txtHoTen.Text);
             txtDiemTB.Text = DiemTrungBinh(txtDiemHS1.Text.Trim(), txtDiemHS2.Text.Trim());
             Anhien(false);
@@ -57,7 +58,7 @@ namespace DeThiThu
             }
             catch (Exception)
             {
-                
+
             }
             return "";
         }
@@ -76,15 +77,15 @@ namespace DeThiThu
 
         private void Anhien(bool a)
         {
-            txtMaSo.Enabled = txtHoTen.Enabled = dateNgaySinh.Enabled = txtDiemThi.Enabled =
-                txtDiemTB.Enabled = txtDiemHS2.Enabled = txtDiemHS1.Enabled = btnHuy.Enabled = btnLuu.Enabled = a;
+            txtMaSo.Enabled = txtHoTen.Enabled = dateNgaySinh.Enabled = txtDiemHS2.Enabled = 
+                txtDiemHS1.Enabled = btnHuy.Enabled = btnLuu.Enabled = a;
             btnThem.Enabled = btnSua.Enabled = !a;
         }
 
         private void Xoatext()
         {
-            txtDiemHS1.Text = txtDiemHS2.Text = txtDiemTB.Text = txtDiemThi.Text = txtHoTen.Text =
-                txtMaSo.Text = dateNgaySinh.Text = "";
+            txtDiemHS1.Text = txtDiemHS2.Text = txtDiemTB.Text = txtDiemThi.Text = txtHoTen.Text = txtMaSo.Text 
+                = dateNgaySinh.Text = "";
         }
 
         private void btnDau_Click(object sender, EventArgs e)
@@ -131,9 +132,15 @@ namespace DeThiThu
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
-            BindingContext[ds, "diem"].RemoveAt(BindingContext[ds, "diem"].Position); 
-            btnLuu.Enabled = true; btnHuy.Enabled = true;
-            btnThem.Enabled = btnXoa.Enabled = btnSua.Enabled = false;
+            if (MessageBox.Show("Bạn chắc chắn muốn xóa dữ liệu đã chọn?", "Thông báo", MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                if (BindingContext[ds, "diem"].Position >= 0)
+                {
+                    BindingContext[ds, "diem"].RemoveAt(BindingContext[ds, "diem"].Position);
+                    da.Update(ds, "diem");
+                }
+            }
         }
 
         private void btnLuu_Click(object sender, EventArgs e)
@@ -154,7 +161,7 @@ namespace DeThiThu
         private void timer1_Tick(object sender, EventArgs e)
         {
             lblPhieuNhapDiem.Left += x;
-            if (lblPhieuNhapDiem.Left <= 0 || lblPhieuNhapDiem.Left > Width - lblPhieuNhapDiem.Width) x = -x;
+            if (lblPhieuNhapDiem.Left <= 0 || lblPhieuNhapDiem.Right >= Width) x = -x;
         }
 
         private void btnThoat_Click(object sender, EventArgs e)

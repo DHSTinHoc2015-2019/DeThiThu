@@ -27,6 +27,7 @@ namespace DeThiThuDataTable
             Xoatext();
             if (TongSoHangDuLieu() > 0) hangHienTai = 0;
             GiaTriHang(hangHienTai);
+            
         }
 
         private void Xoatext()
@@ -74,6 +75,7 @@ namespace DeThiThuDataTable
                 txtDiemHS1.Text = dt.Rows[h][3].ToString();
                 txtDiemHS2.Text = dt.Rows[h][4].ToString();
                 txtDiemHS1.Text = DiemTrungBinh(txtDiemHS1.Text, txtDiemHS2.Text);
+                txtDiemTB.Text = DiemTrungBinh(txtDiemHS1.Text, txtDiemHS2.Text);
             }
             else
             {
